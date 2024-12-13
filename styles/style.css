@@ -1,5 +1,52 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+	/* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+}
+
+.header {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(5, 1fr);
+	background-image: url(./images/cover-image-dark.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header__theme-menu {
+	grid-column: 1;
+	grid-row: 2;
+	justify-self: right;
+	gap: 10px;
+	font-family: var(--main-font), sans-serif;
+	padding: 1.5px, 13px, 1.5px, 13px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 18px;
+	color: var(--accent-color);
+}
+
+.header__theme-menu-item {
+}
+
+.header__title {
+	font-family: var(--main-font), sans-serif;
+	font-size: 116px;
+	font-weight: 700;
+	text-align: center;
+	text-shadow: 4px 4px 0 var(--accent-color);
+	grid-column: 1;
+	grid-row: 3;
+}
+
+.header__subtitle {
+	font-family: var(--main-font), sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 23.4px;
+	text-align: center;
+	background-color: var(--accent-color);
+	grid-column: 1;
+	grid-row: 4;
 }
