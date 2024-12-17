@@ -3,5 +3,19 @@
   и их переопределение под различные устройства
 */
 :root {
-
+  --accent-color: rgba(255, 0, 112, 1);
+  --accent-color-header: rgba(219, 0, 255, 1);
+  --accent-color-content: rgba(241, 178, 206, 1);
+  --dark-text-color: rgba(0, 0, 40, 1);
+  --font-family: IBM Plex mono;
+  --background-image-black: url(../images/cover-image-dark.png);
+  --font-size-18: 18px;
+  --font-size-116: 116px;
+  --line-height-23: 23.4px;
+  --line-height-95: 95.7px;
+  --font-weight-400: 400;
+  --font-weight-700: 700;
+  --line-height-18: 18px;
+  --margin-end-20: 20px;
+  --margin-end-10: 10px;
 }
