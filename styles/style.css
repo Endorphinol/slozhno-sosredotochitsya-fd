@@ -188,9 +188,9 @@
 		flex-direction: row;
 		justify-content: center;
 		align-items: flex-end;
-		gap: 10px;
-		padding-block-start: 20px;
-		margin-inline-start: 20px;
+		gap: 9px;
+        padding-block-start: 21px;
+        margin-inline-start: 20px;
 	}
 }
 
@@ -225,10 +225,10 @@
 }
 
 .header__theme-menu-button:focus-visible {
-border-right: 0;
-border-left: 0;
-border-top: 0;
-border-bottom: 1px solid var(--color-button);
+	border-right: 0;
+	border-left: 0;
+	border-top: 0;
+	border-bottom: 1px solid var(--color-button);
 }
 
 .header__title {
@@ -327,15 +327,15 @@ border-bottom: 1px solid var(--color-button);
 }
 
 @media (width >= 768px) {
-.content {
-	font-family: var(--font-family, sans-serif);
-	font-size: var(--font-size-18, 18px);
-	font-weight: var(--font-weight-400, 400);
-	line-height: var(--line-height-23);
-	padding-inline-start: 10px;
-	padding-inline-end: 10px;
-	margin-block-start: 5px;
-}
+	.content {
+		font-family: var(--font-family, sans-serif);
+		font-size: var(--font-size-18, 18px);
+		font-weight: var(--font-weight-400, 400);
+		line-height: var(--line-height-23);
+		padding-inline-start: 10px;
+		padding-inline-end: 10px;
+		margin-block-start: 5px;
+	}
 }
 
 .concentration__list {
@@ -482,8 +482,7 @@ border-bottom: 1px solid var(--color-button);
 @media (width >= 1024px) {
 	.attention {
 		padding-block-start: 30px;
-        padding-inline-end: 10px;
-
+		padding-inline-end: 10px;
 	}
 }
 
@@ -565,7 +564,6 @@ border-bottom: 1px solid var(--color-button);
 	}
 }
 
-
 .attention__item-subtitle {
 	font-size: var(--font-size-18, 18px);
 	font-weight: var(--font-weight-400, 400);
@@ -613,8 +611,7 @@ border-bottom: 1px solid var(--color-button);
 
 .concentratation-better {
 	padding-block-start: 30px;
-	gap: 20px
-
+	gap: 20px;
 }
 
 @media (width >= 768px) {
@@ -636,7 +633,7 @@ border-bottom: 1px solid var(--color-button);
 }
 
 .concentratation-better__title {
-	color: var(  --color-title);
+	color: var(--color-title);
 	font-size: var(--font-size-18, 18px);
 }
 
@@ -816,11 +813,11 @@ border-bottom: 1px solid var(--color-button);
 
 .footer {
 	position: relative;
-    height: 100vh;
-    grid-template-columns: 1fr;
-    grid-template-rows: 49%;
-    align-items: center;
-    display: grid;
+	height: 100vh;
+	grid-template-columns: 1fr;
+	grid-template-rows: 49%;
+	align-items: center;
+	display: grid;
 }
 
 @media (width >= 768px) {
@@ -844,7 +841,6 @@ border-bottom: 1px solid var(--color-button);
 		display: grid;
 	}
 }
-
 
 .footer__title {
 	font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
