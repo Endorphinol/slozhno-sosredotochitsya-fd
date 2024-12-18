@@ -176,7 +176,7 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: flex-end;
-		gap: 10px;
+		gap: 13px;
 		padding-block-end: 53px;
 		padding-inline-end: 20px;
 	}
@@ -717,6 +717,9 @@ border-bottom: 1px solid var(--color-button);
 	display: grid;
 	grid-auto-columns: 1fr;
 	gap: 10px;
+}
+
+.pictures__image {
 	width: 100%;
 }
 
