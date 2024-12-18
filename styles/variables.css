@@ -4,15 +4,20 @@
 */
 :root {
   --accent-color: rgba(255, 0, 112, 1);
-  --accent-color-header: rgba(219, 0, 255, 1);
-  --accent-color-content: rgba(241, 178, 206, 1);
-  --dark-text-color: rgba(0, 0, 40, 1);
+  --color-header: rgba(219, 0, 255, 1);
+  --color-title: rgba(255, 0, 112, 1);
+  --color-button: rgba(255, 0, 112, 1);
+  --color-link: rgba(255, 0, 112, 1);
+  --color-text: rgba(255, 194, 230, 1);
+  --accent-text: rgba(0, 0, 40, 1);
+  --color-rectengle: rgba(255, 0, 112, 1);
   --font-family: IBM Plex mono;
   --background-image-black: url(../images/cover-image-dark.png);
   --font-size-18: 18px;
   --font-size-116: 116px;
   --line-height-23: 23.4px;
   --line-height-95: 95.7px;
+  --line-height-130: 130px;
   --font-weight-400: 400;
   --font-weight-700: 700;
   --line-height-18: 18px;
