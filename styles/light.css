@@ -20,20 +20,6 @@
 }
 
 @media (prefers-color-scheme: light) {
-	:root.theme-auto {
-    --accent-color: rgba(255, 141, 203);
-    --color-header: rgba(255, 194, 230);
-    --color-content: rgba(53, 52, 48);
-    --color-title: rgba(53, 52, 48);
-    --color-link: rgba(53, 52, 48);
-    --color-subtitle: rgba(53, 52, 48);
-    --button-hover: rgba(50, 49, 45, 0.4);
-    --font-family: IBM Plex mono;
-    --background-image-black: url(../images/cover-image-light.png);
-	}		
-}
-
-@media (prefers-color-scheme: light) {
 	:root {
     --accent-color: rgba(255, 141, 203);
     --color-header: rgba(255, 194, 230);
@@ -47,10 +33,12 @@
   }
 }
 
-.theme-light .header__rec {
-  visibility: hidden;
+@media (prefers-color-scheme: light) {
+  .theme-auto .header__rec {
+    visibility: hidden;
+  }
 }
 
-.theme-auto .header__rec {
+.theme-light .header__rec {
   visibility: hidden;
 }
