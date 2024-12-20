@@ -14,6 +14,18 @@
 	--background-image-black: url(../images/cover-image-dark.png);
 }
 
+@media (prefers-color-scheme: dark) {
+	:root.theme-auto {
+		--accent-color: rgba(255, 0, 112, 1);
+		--accent-text: rgba(0, 0, 40, 1);
+		--color-header: rgba(219, 0, 255, 1);
+		--color-title: rgba(255, 0, 112, 1);
+		--color-rectengle: rgba(255, 0, 112, 1);
+		--font-family: IBM Plex mono;
+		--background-image-black: url(../images/cover-image-dark.png);
+	}		
+}
+
 .theme-dark .page {
 	/* Вам также нужно будет написать ряд подобных селекторов */
 }
