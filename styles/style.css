@@ -560,10 +560,24 @@
 	}
 }
 
+.pictures__title {
+	color: var(--color-content);
+}
+
+@media (width >= 768px) {
+	.pictures__title {
+		padding-inline-end: 10px;
+		margin-inline-end: 10px;
+	}
+}
+
 .pictures__images {
 	display: grid;
 	grid-auto-columns: 1fr;
 	gap: 10px;
+}
+
+img {
 	width: 100%;
 }
 
@@ -627,17 +641,6 @@
 		width: 100%;
 		height: 100%;
 		padding-inline-end: 10px;
-	}
-}
-
-.pictures__title {
-	color: var(--color-content);
-}
-
-@media (width >= 768px) {
-	.pictures__title {
-		padding-inline-end: 10px;
-		margin-inline-end: 10px;
 	}
 }
 

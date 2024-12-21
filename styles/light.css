@@ -10,29 +10,29 @@
   */
 	--accent-color: rgba(255, 141, 203);
 	--color-header: rgba(255, 194, 230);
-  --color-content: rgba(53, 52, 48);
-  --color-title: rgba(53, 52, 48);
-  --color-link: rgba(53, 52, 48);
-  --color-subtitle: rgba(53, 52, 48);
-  --button-hover: rgba(50, 49, 45, 0.4);
+	--color-content: rgba(53, 52, 48);
+	--color-title: rgba(53, 52, 48);
+	--color-link: rgba(53, 52, 48);
+	--color-subtitle: rgba(53, 52, 48);
+	--button-hover: rgba(50, 49, 45, 0.4);
 	--font-family: IBM Plex mono;
 	--background-image-black: url(../images/cover-image-light.png);
-  --background-color-fallback: #fff1f7;
+	--background-color-fallback: #fff1f7;
 }
 
 @media (prefers-color-scheme: light) {
 	:root {
-    --accent-color: rgba(255, 141, 203);
-    --color-header: rgba(255, 194, 230);
-    --color-content: rgba(53, 52, 48);
-    --color-title: rgba(53, 52, 48);
-    --color-link: rgba(53, 52, 48);
-    --color-subtitle: rgba(53, 52, 48);
-    --button-hover: rgba(50, 49, 45, 0.4);
-    --font-family: IBM Plex mono;
-    --background-image-black: url(../images/cover-image-light.png);
-    --background-color-fallback: #fff1f7;
-  }
+		--accent-color: rgba(255, 141, 203);
+		--color-header: rgba(255, 194, 230);
+		--color-content: rgba(53, 52, 48);
+		--color-title: rgba(53, 52, 48);
+		--color-link: rgba(53, 52, 48);
+		--color-subtitle: rgba(53, 52, 48);
+		--button-hover: rgba(50, 49, 45, 0.4);
+		--font-family: IBM Plex mono;
+		--background-image-black: url(../images/cover-image-light.png);
+		--background-color-fallback: #fff1f7;
+	}
 }
 
 @media (prefers-color-scheme: light) {
@@ -41,20 +41,20 @@
 		--accent-text: rgba(0, 0, 40, 1);
 		--color-header: rgba(219, 0, 255, 1);
 		--color-title: rgba(255, 0, 112, 1);
-    --color-subtitle: rgba(241, 178, 206);
+		--color-subtitle: rgba(241, 178, 206);
 		--color-rectengle: rgba(255, 0, 112, 1);
 		--font-family: IBM Plex mono;
 		--background-image-black: url(../images/cover-image-dark.png);
-    --background-color-fallback: #fff1f7;
-	}		
+		--background-color-fallback: #fff1f7;
+	}
 }
 
 @media (prefers-color-scheme: light) {
-  .theme-auto .header__rec {
-    visibility: hidden;
-  }
+	.theme-auto .header__rec {
+		visibility: hidden;
+	}
 }
 
 .theme-light .header__rec {
-  visibility: hidden;
+	visibility: hidden;
 }
