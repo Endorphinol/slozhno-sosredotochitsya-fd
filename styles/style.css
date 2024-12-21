@@ -7,8 +7,7 @@
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
-	background-color: #fff1f7;
-	background-color: #000028;
+	background-color: var(--background-color-fallback);
 }
 
 .header {
@@ -71,21 +70,6 @@
 		bottom: 20px;
 	}
 }
-
-@media (width >= 1024px) {
-	.decorated-zone::before {
-		right: 20px;
-		top: 20px;
-	}
-}
-
-@media (width >= 1024px) {
-	.decorated-zone::after {
-		left: 20px;
-		bottom: 20px;
-	}
-}
-
 @media (width >= 768px) {
 	.header {
 		padding: 0px;
@@ -580,9 +564,6 @@
 	display: grid;
 	grid-auto-columns: 1fr;
 	gap: 10px;
-}
-
-.pictures__image {
 	width: 100%;
 }
 
